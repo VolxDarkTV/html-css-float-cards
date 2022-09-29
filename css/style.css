@@ -8,8 +8,13 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
 }
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
 /* header */
-    /* general */
+    /* general page set header & main */
 .h-page-center{
     margin: 0% 15% 0%;
 }
@@ -17,10 +22,45 @@ body{
 .title{
     text-align: center;
     font-size: 32px;
-    padding: 2% 0% 3% 0%;
+    margin: 2% 0% 3% 0%;
     color: rgb(255, 22, 100);
     
 }
 .subtitle{
     text-align: center;
+}
+/* main */
+.row{
+    margin-top: 5%;
+}
+.col{
+    float: left;
+    width: 350px;
+    height: 100px;
+    background-color: black; 
+}
+/* profiles */
+.profile-images{
+    height: 100px;
+    float: left;
+}
+.profile-info{
+    float: left;
+    padding-left: 4%;
+}
+.title-profile, .profession-title-profile{
+    color: #fff;
+}
+.title-profile{
+    margin-top: 8%;
+}
+.profession-title-profile{
+    margin-top: 5%;
+}
+.email{
+    display: block;
+    margin-top: 5%;
+    font-size: small;
+    text-decoration: none;
+    color: rgb(127, 219, 255);
 }
