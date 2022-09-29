@@ -35,13 +35,16 @@ body{
 }
 .col{
     float: left;
-    width: calc(98% / 3);
+    width: calc(100% / 3);
     height: 100px;
-    background-color: black; 
+     
 }
-.column-center{
-    margin: 0% 1%;
+.card{
+    background-color: black;
+    margin: 0px 15px;
+    box-shadow: 5px 5px 10px rgb(255, 22, 100);
 }
+
 /* profiles */
 .profile-images{
     height: 100px;
