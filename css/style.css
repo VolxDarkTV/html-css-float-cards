@@ -35,9 +35,8 @@ body{
 }
 .col{
     float: left;
-    width: calc(100% / 3);
+    width: calc(98% / 3);
     height: 100px;
-    
     background-color: black; 
 }
 .column-center{
