@@ -8,7 +8,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
 }
-.clearfix{
+.clearfix::after{
     content: "";
     display: table;
     clear: both;
@@ -35,8 +35,9 @@ body{
 }
 .col{
     float: left;
-    width: 350px;
+    width: calc(100% / 3 - 30px);
     height: 100px;
+    margin-left: 30px;
     background-color: black; 
 }
 /* profiles */
