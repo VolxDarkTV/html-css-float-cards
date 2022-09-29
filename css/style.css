@@ -35,17 +35,14 @@ body{
 }
 .col{
     float: left;
-    width: calc(100% / 3 - 30px);
+    width: calc(100% / 3);
     height: 100px;
-    margin-left: 30px;
+    
     background-color: black; 
 }
-/* .left{
-    margin: 0% 2% 0% 0%;
+.column-center{
+    margin: 0% 1%;
 }
-.right{
-    margin: 0% 0% 0% 2%;
-} */
 /* profiles */
 .profile-images{
     height: 100px;
